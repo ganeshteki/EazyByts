@@ -139,5 +139,42 @@ Container
 - **Responsive Design**: Frontend is optimized for mobile and desktop devices.
 - **Documentation**: Swagger provides easy-to-use API testing.
 
+How to Run the Project Locally
+Running the Frontend Locally
+Navigate to the chat-frontend/ directory:
+
+bash
+Copy code
+cd chat-frontend
+Install the required dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+Open your browser and navigate to http://localhost:3000. The React application should be up and running locally.
+
+Running the Backend Locally
+Navigate to the chatapp/ directory:
+
+bash
+Copy code
+cd chatapp
+Install the required dependencies (if any Maven dependencies need to be downloaded):
+
+bash
+Copy code
+mvn clean install
+Run the Spring Boot application:
+
+bash
+Copy code
+mvn spring-boot:run
+By default, the backend will run on http://localhost:8080. You can access the API endpoints locally.
+
 
 
