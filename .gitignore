@@ -1,0 +1,9 @@
+# Node.js and frontend dependencies
+node_modules/
+
+# IDE and build directories
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
